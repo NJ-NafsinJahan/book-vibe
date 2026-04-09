@@ -7,8 +7,9 @@ const Banner = () => {
     <div className="hero bg-base-200 min-h-[70vh] my-8 rounded-2xl container mx-auto">
       <div className="hero-content flex-col lg:flex-row-reverse w-full justify-between items-center py-10 px-40">
         <img
-          src={bookImg}
-          className="max-w-sm rounded-lg shadow-2xl bg-base-200 "
+          className="max-w-sm rounded-lg"
+          // src={bookImg}
+          src={bannerImg}
         />
         <div>
           <h1 className="text-5xl font-bold">
